@@ -1,5 +1,6 @@
 body {
     background-color: #f1f1f1;
+    margin: 0;
 }
 
 .nav-main {
@@ -19,7 +20,7 @@ body {
     background-color: #F98F39;
     background-image: url("img/—Pngtree—\ vector\ icon_3791388.png");
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 70%;
     background-position: center;
     cursor: pointer;
 }
@@ -36,7 +37,7 @@ body {
 
 .nav-main ul li {
     list-style: none;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 .nav-main ul li a {

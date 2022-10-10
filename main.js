@@ -12,25 +12,25 @@ let toggleNav = function() {
         getSidebarTitle.style.opacity = "0.5";
         
         let arrayLength = getSidebarLinks.length;
-        for (let i = 0; i < array.length; i++) {
+        for (let i = 0; i < arrayLength; i++) {
             getSidebarLinks[i].style.opacity = "1";
         }
 
         toggleNavStatus = true;
     }
 
-    // else if (toggleNavStatus === true) {
-    //     getSidebar.style.width = "50px";
-    //     getSidebarTitle.style.opacity = "0";
+    else if (toggleNavStatus === true) {
+        getSidebar.style.width = "50px";
+        getSidebarTitle.style.opacity = "0";
         
-    //     let arrayLength = getSidebarLinks.length;
-    //     for (let i = 0; i < array.length; i++) {
-    //         getSidebarLinks[i].style.opacity = "0";
-    //     }
+        let arrayLength = getSidebarLinks.length;
+        for (let i = 0; i < arrayLength; i++) {
+            getSidebarLinks[i].style.opacity = "0";
+        }
 
-    //     getSidebarUl.style.visibility = "hidden";
+        getSidebarUl.style.visibility = "hidden";
 
-    //     toggleNavStatus = false;
+        toggleNavStatus = false;
         
-    // }
+    }
 }
