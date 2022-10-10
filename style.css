@@ -1,15 +1,13 @@
 body {
     background-color: #f1f1f1;
-    margin: 0;
 }
 
-/* NAVBAR */
 .nav-main {
     position: fixed;
     top: 0;
     width: 100%;
     height: 60px;
-    background-color: #fff;
+    background-color: #FFF;
     display: flex;
     flex-wrap: wrap;
     z-index: 1000;
@@ -18,10 +16,10 @@ body {
 .btn-toggle-nav {
     width: 60px;
     height: 100%;
-    background-color: #f98f39;
-    background-image: url(img/—Pngtree—\ vector\ icon_3791388.png);
+    background-color: #F98F39;
+    background-image: url("img/—Pngtree—\ vector\ icon_3791388.png");
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 40%;
     background-position: center;
     cursor: pointer;
 }
@@ -38,7 +36,7 @@ body {
 
 .nav-main ul li {
     list-style: none;
-    line-height: 30px;
+    line-height: 60px;
 }
 
 .nav-main ul li a {
@@ -48,10 +46,9 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #111;
-    font-family: Arial;
+    font-family: arial;
     font-size: 16px;
 }
-
 
 .nav-sidebar {
     position: fixed;
@@ -62,13 +59,13 @@ body {
     padding: 0 5px;
     background-color: #1b1b1b;
     z-index: 1000;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul {
     padding-top: 15px;
     overflow: hidden;
     visibility: hidden;
-
 }
 
 .nav-sidebar ul li {
@@ -82,10 +79,12 @@ body {
     padding: 0 10px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #FFF;
     font-family: Arial;
     font-size: 16px;
     white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul li a:hover {
